@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/contact_menu_item_add_contact"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/contact_menu_add_contact"
+        android:showAsAction="ifRoom|withText" />
+
+</menu>

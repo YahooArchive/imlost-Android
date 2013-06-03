@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImLost</string>
+    
+    <string name="imlost_button">I\'m Lost</string>
+    <string name="imlost_content_houses">Houses</string>
+    <string name="imlost_menu_prefs">Settings</string>
+    
+    <string name="prefs_about_button">About</string>
+    <string name="prefs_contacts_button">Contacts</string>
+    <string name="prefs_tracking_button">Tracking</string>
+    
+    <string name="contact_list_item_name">Contact Name</string>
+    <string name="contact_list_item_phone">Phone Number</string>
+    <string name="contact_list_empty_no_contacts">Uh Oh!  You haven\'t added any emergency contacts yet!</string>
+    <string name="contact_list_empty_add_contact">Add Emergency Contact</string>
+    <string name="contact_menu_add_contact">Add Contact</string>
+    
+</resources>
