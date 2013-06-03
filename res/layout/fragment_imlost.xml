@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/imlost_button"
+        android:layout_width="230dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/imlost_button"
+        android:text="@string/imlost_button"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF" />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+	    <ImageView
+	        android:id="@+id/imlost_houses"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="bottom|center_horizontal"
+	        android:src="@drawable/houses"
+	        android:contentDescription="@string/imlost_content_houses" />
+        
+    </FrameLayout>
+        
+</LinearLayout>

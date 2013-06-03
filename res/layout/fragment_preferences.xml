@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/prefs_about_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="@string/prefs_about_button"
+        android:textSize="27sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/pref_button" />
+    
+    <Button
+        android:id="@+id/prefs_contacts_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="@string/prefs_contacts_button"
+        android:textSize="27sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/pref_button" />
+    
+    <Button
+        android:id="@+id/prefs_tracking_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="@string/prefs_tracking_button"
+        android:textSize="27sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/pref_button" />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+	    <ImageView
+	        android:id="@+id/imlost_houses"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="bottom|center_horizontal"
+	        android:src="@drawable/houses"
+	        android:contentDescription="@string/imlost_content_houses" />
+        
+    </FrameLayout>
+
+</LinearLayout>

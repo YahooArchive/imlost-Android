@@ -2,36 +2,37 @@ package com.yahoo.android.client.imlost.models;
 
 public class Contact {
 
-	private long id;
-	private String name;
-	private String number;
+	private long mId;
+	private String mName;
+	private String mNumber;
 	
-	public Contact(String name, String number) {
-		this.name = name;
-		this.number = number;
+	public Contact() {
+		mId = -1;
+		mName = "";
+		mNumber = "";
 	}
 	
 	public long getId() {
-		return id;
+		return mId;
 	}
 
 	public void setId(long id) {
-		this.id = id;
+		this.mId = id;
 	}
 
 	public String getName() {
-		return name;
+		return mName;
 	}
 	
 	public void setName(String name) {
-		this.name = name;
+		this.mName = name;
 	}
 	
 	public String getNumber() {
-		return number;
+		return mNumber;
 	}
 
 	public void setNumber(String number) {
-		this.number = number;
+		this.mNumber = number;
 	}
 }
